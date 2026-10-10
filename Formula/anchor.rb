@@ -1,28 +1,28 @@
 class Anchor < Formula
   desc "A small coding agent for the terminal"
   homepage "https://fuseraft.ai/anchor/"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fuseraft/anchor/releases/download/v0.7.0/anchor-0.7.0-osx-arm64.tar.gz"
-      sha256 "e3744e9790c0589fdd2dc9bcada50cb1c3a4bb5645e0fda7031cb713c247737d"
+      url "https://github.com/fuseraft/anchor/releases/download/v0.8.0/anchor-0.8.0-osx-arm64.tar.gz"
+      sha256 "46dfb9dba922387f28cfa0581cf255e7026b987fab70dce5273d992cb75e3df7"
     end
     on_intel do
-      url "https://github.com/fuseraft/anchor/releases/download/v0.7.0/anchor-0.7.0-osx-x64.tar.gz"
-      sha256 "b19f7dd68c0aef6abc006b636daadfa9945b19a991b763d03fc6d39714704bc6"
+      url "https://github.com/fuseraft/anchor/releases/download/v0.8.0/anchor-0.8.0-osx-x64.tar.gz"
+      sha256 "a9b7ad31e4bd5c215d5a7ab407f25400b9f2ba9c117ee704c861ff70465d8847"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fuseraft/anchor/releases/download/v0.7.0/anchor-0.7.0-linux-arm64.tar.gz"
-      sha256 "3f3a3851d1d53120bb67b2682fa34aa3e9911972fc80a8a2ef4189b7acd6e124"
+      url "https://github.com/fuseraft/anchor/releases/download/v0.8.0/anchor-0.8.0-linux-arm64.tar.gz"
+      sha256 "19a1666f8f0223a771e6ec221a50eaef33441148b8b038746410b91a5b259c33"
     end
     on_intel do
-      url "https://github.com/fuseraft/anchor/releases/download/v0.7.0/anchor-0.7.0-linux-x64.tar.gz"
-      sha256 "b68b8c5691031809bec9058031c7eb47054298295b7cd2e9c8bbbd288e7454f0"
+      url "https://github.com/fuseraft/anchor/releases/download/v0.8.0/anchor-0.8.0-linux-x64.tar.gz"
+      sha256 "43c931e3367870357b0e9f87edbad556c203e440b215b3a5fccfea414069e805"
     end
   end
 
